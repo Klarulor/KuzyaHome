@@ -1,0 +1,29 @@
+[
+    {
+        "path": "/relay",
+        "title": "лампа",
+        "enabled": false,
+        "value": null
+    },
+    {
+        "path": "/led0",
+        "title": "светодиод",
+        "enabled": false,
+        "value": null,
+        "arduino": {
+            "type": "output",
+            "pin": "53"
+        }
+    },
+    {
+        "path": "/termostat",
+        "title": "датчик температуры",
+        "enabled": true,
+        "value": 21,
+        "arduino": {
+            "type": "input",
+            "custom": "DallasTemperature",
+            "pin": "5"
+        }
+    }
+]
